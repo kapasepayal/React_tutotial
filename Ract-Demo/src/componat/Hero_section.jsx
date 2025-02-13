@@ -40,7 +40,7 @@ function Hero() {
             ) : (
                 <i onClick={() => changeTrue()} className="fa-solid fa-xmark absolute fa-2x top-[76px] left-6 text-white"></i>
             )}
-            <div className={istrue === true ? " active-box1 backflow" : "box-1 show bg-white  shadow-lg shadow-stone-500/100 border-stone-700 w-[20.4rem] h-dvh text-center pt-1 mr-2   "}>
+            <div className={istrue === true ? " active-box1 backflow" : "box-1 show bg-white border-gray-200  border-2 shadow-lg shadow-stone-500/100 border-stone-700 w-[20.4rem] h-dvh text-center pt-1 mr-2   "}>
                 <h1 className='font-bold  mb-2 text-2xl font-serif cursor-pointer border-2 bg-violet-900 mx-1 py-2 text-white '>Menu OPtion</h1>
                 <h1 className='vid  border-gray-300 ' onClick={() => changeState(0)}>Video-1</h1>
                 <h1 className='vid ' onClick={() => changeState(1)}>video-2</h1>

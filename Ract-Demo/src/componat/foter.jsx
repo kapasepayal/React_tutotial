@@ -15,6 +15,7 @@ function Footer() {
             <p className="text-white text-xl">Copyright &copy;2024; Designed by <span className="designer">gold</span></p>
             </div>
         </div>
+       
     )
 }
 

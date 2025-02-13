@@ -1,15 +1,9 @@
 .list{
-    @apply list-none text-xl font-bold p-1 px-4 text-white 
-    hover:cursor-pointer 
-    hover:rounded-full 
-   hover:bg-white
-   hover:text-violet-400
+    @apply list-none text-xl font-bold p-1 px-4 text-white hover:cursor-pointer hover:rounded-full  hover:bg-white hover:text-violet-400
    
 }
 .btn{
-    @apply list-none text-xl font-bold mx-2 px-4 pb-1 mb-2 text-white bottom-1  bg-violet-800  
-    hover:bg-violet-800
-    hover:text-white
+    @apply list-none text-xl font-bold mx-2 px-4 pb-1 mb-2 text-white bottom-1  bg-violet-800   hover:bg-violet-800 hover:text-white
 }
 
 @media (max-width:480px){
